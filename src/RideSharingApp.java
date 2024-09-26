@@ -22,6 +22,6 @@ public class RideSharingApp {
 
     public static void main(String[] args) {
         RideSharingApp app = new RideSharingApp();
-        app.start();
+        app.start();//app is starting from here.
     }
 }
