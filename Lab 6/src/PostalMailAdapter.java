@@ -7,7 +7,7 @@ public class PostalMailAdapter implements NotificationSender {
 
     @Override
     public void send(String recipient, String message) {
-        // Assume you split recipient into name, address, and postal code for the postal mail.
+
         String[] recipientDetails = recipient.split(",");
         String name = recipientDetails[0];
         String address = recipientDetails[1];
